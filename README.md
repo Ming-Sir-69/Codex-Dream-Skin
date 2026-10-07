@@ -1,3 +1,22 @@
+# Codex Dream Skin · Ming-Sir-69 分支
+
+这是 [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) 的 fork，为 Codex 桌面端提供外部主题与本机 CDP 注入方案。原作者、贡献者、赞助及素材声明保留在下方上游说明中；本分支由 [Ming-Sir-69](https://github.com/Ming-Sir-69) 维护。
+
+## 先看这些入口
+
+- macOS：[macos/README.md](macos/README.md)，安装入口为 `macos/Install Codex Dream Skin.command`。
+- Windows：[windows/SKILL.md](windows/SKILL.md)，安装与启动脚本在 `windows/scripts/`。
+- 平台差异：[docs/platforms.md](docs/platforms.md)。英文说明：[README.en.md](README.en.md)。
+- 贡献：本分支可通过 [Pull Request](https://github.com/Ming-Sir-69/Codex-Dream-Skin/pulls) 提交修改，参照 [PR 模板](.github/pull_request_template.md)；当前未启用 Issues。上游通用问题可按下方上游指南，在 [上游 Issues](https://github.com/Fei-Away/Codex-Dream-Skin/issues) 讨论，并注明平台、版本与复现过程。
+
+本分支尚无独立 Release；与上游的具体改动和验证状态待补充。下方的功能、测试和使用记录来自保留的上游文档，不能据此推定本分支已独立完成相同验证。
+
+软件许可见 [macos/LICENSE](macos/LICENSE) 与 [macos/NOTICE.md](macos/NOTICE.md)，原版权声明保持不变。软件许可不自动覆盖人物、图片、商标与官方应用。项目为非官方定制工具，相关权利属于原权利人。
+
+---
+
+## 上游项目说明
+
 # Codex Dream Skin
 
 <p align="center">
