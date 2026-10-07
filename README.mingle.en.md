@@ -1,57 +1,57 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="readme-assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="readme-assets/header-light.svg">
-  <img alt="Codex Dream Skin · 桌面外部主题 · ✦ EricMingle69" src="readme-assets/header-light.svg" width="100%">
+  <img alt="Codex Dream Skin · External Desktop Themes · ✦ EricMingle69" src="readme-assets/header-light.svg" width="100%">
 </picture>
 
 <p align="center">
   <a href="README.md">简体中文</a> · <a href="README.mingle.en.md">English</a> · <a href="PERSONAL-NOTICE.md">✦ EricMingle69</a>
 </p>
 
-这是个人维护的 fork；本页的个人页眉与导航不代表上游官方。
+This is a personally maintained fork. Its personal header and navigation do not represent the upstream project.
 
-# Codex Dream Skin · 桌面外部主题
+# Codex Dream Skin · External Desktop Themes
 
-通过本机 CDP 为 Codex 桌面端加载外部主题的非官方工具。
-这是 [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) 的 fork；原软件与贡献者归属保持不变。
+An unofficial tool that loads external themes into Codex desktop through local CDP.
+This is a fork of [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin); the original software and contributors retain their attribution.
 
-## 按平台开始
+## Start with your platform
 
-| 平台 | 阅读与入口 |
+| Platform | Guide and entry |
 | --- | --- |
-| macOS | [macos/README.md](macos/README.md) · [安装入口](<macos/Install Codex Dream Skin.command>) |
-| Windows | [windows/SKILL.md](windows/SKILL.md) · [脚本目录](windows/scripts/) |
-| 平台差异 | [docs/platforms.md](docs/platforms.md) |
-| 项目背景 | [docs/PROJECT.md](docs/PROJECT.md) |
+| macOS | [macos/README.md](macos/README.md) · [Installer](<macos/Install Codex Dream Skin.command>) |
+| Windows | [windows/SKILL.md](windows/SKILL.md) · [Scripts](windows/scripts/) |
+| Platform differences | [docs/platforms.md](docs/platforms.md) |
+| Project background | [docs/PROJECT.md](docs/PROJECT.md) |
 
-1. 先读平台说明，核对官方应用版本与本机要求。
-2. 按平台文档使用安装或启动入口。
-3. 使用自己的、获授权的主题图片。
-4. 结束主题会话时按 Restore 入口恢复并关闭调试端口。
+1. Read the platform guide and check the official application version and local requirements.
+2. Follow its installation or launch entry.
+3. Use images you own or are authorized to use.
+4. End the themed session through Restore to close the debugging port.
 
-## 本机调试边界
+## Local debugging boundary
 
-主题通过 loopback CDP 作用于本机应用。
-主题会话中的调试端口应视为敏感入口，避免让不可信本机软件连接。
-项目不重新分发官方应用，也不捆绑 Node.js；运行时使用并验证官方应用内签名的 Node.js。
+Themes act on the local application through loopback CDP.
+Treat the debugging port as sensitive during a themed session and avoid untrusted local software that could connect to it.
+The project does not redistribute the official application or bundle Node.js; it validates and uses signed Node.js inside the official application.
 
-## 分支状态
+## Fork status
 
-此 fork 尚无独立 Release，具体定制、同步策略与独立验证状态待补充。
-上游功能或测试记录不能自动证明本分支具有同样结果。
-分支改进可提交[本仓库 PR](https://github.com/Ming-Sir-69/Codex-Dream-Skin/pulls)，通用问题走[上游 Issues](https://github.com/Fei-Away/Codex-Dream-Skin/issues)。
+This fork has no independent Release; customizations, synchronization and independent validation remain undocumented.
+Upstream feature or test records do not automatically establish the same results for this fork.
+Use [this fork's PRs](https://github.com/Ming-Sir-69/Codex-Dream-Skin/pulls) for branch changes and [upstream Issues](https://github.com/Fei-Away/Codex-Dream-Skin/issues) for general problems.
 
-## 软件与素材许可
+## Software and asset rights
 
-[macos/LICENSE](macos/LICENSE)采用 MIT，保留 **Copyright (c) 2026 Codex Dream Skin Studio contributors**。
-[macos/NOTICE.md](macos/NOTICE.md)区分软件、人物/图片素材、商标与官方应用的权利。
+[macos/LICENSE](macos/LICENSE) is MIT, retaining **Copyright (c) 2026 Codex Dream Skin Studio contributors**.
+[macos/NOTICE.md](macos/NOTICE.md) distinguishes software rights from likenesses/images, trademarks and official applications.
 
-人物肖像、第三方图片、OpenAI/Codex 商标和官方应用不由软件 MIT 许可授权。
-随仓人物参考素材不因收录而获得再分发或商用权；运行截图只作文档预览，不作壁纸导入。
-本项目与 OpenAI 无隶属、背书或赞助关系。
+The software MIT license does not grant rights to likenesses, third-party images, OpenAI/Codex trademarks or official applications.
+Included likeness references do not establish redistribution or commercial rights; runtime screenshots are documentation previews, not wallpapers.
+The project is not affiliated with, endorsed by or sponsored by OpenAI.
 
 <details>
-<summary>上游 README 原文（保留作者与使用说明）</summary>
+<summary>Original upstream README (authors and usage retained)</summary>
 
 <!-- BEGIN PRESERVED UPSTREAM README -->
 # Codex Dream Skin
@@ -229,5 +229,5 @@ Star 一下，然后挑一张图，把你的 Codex 变成今天想要的样子�
 
 ---
 
-文档维护：**✦ EricMingle69** · [Ming-Sir-69](https://github.com/Ming-Sir-69)  
-[个人标识、许可与权限说明](PERSONAL-NOTICE.md) · 明暗页眉随 GitHub 主题自动切换。
+Documentation maintained by **✦ EricMingle69** · [Ming-Sir-69](https://github.com/Ming-Sir-69)  
+[Personal identity, licensing and permissions](PERSONAL-NOTICE.md) · The header follows your GitHub theme.
